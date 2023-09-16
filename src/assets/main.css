@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+     scroll-behavior: smooth;
+     overflow: hidden;
+ }
+ body::-webkit-scrollbar{
+     width: .5rem;
+     background: #ebebeb;
+ }
+ body::-webkit-scrollbar-thumb{
+     background: #2C98F0;
+ }
