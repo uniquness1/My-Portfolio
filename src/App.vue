@@ -1,5 +1,5 @@
 <template>
-  <main class="flex">
+  <main class="flex max-w-6xl mx-auto">
     <SideBar />
     <Content />
   </main>
