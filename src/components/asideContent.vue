@@ -15,7 +15,7 @@
                     {{ link.text }}
                 </a>
             </nav>
-            <footer class="mb-5 md:mb-0">
+            <footer class="mb-10 md:mb-0">
                 <p class="font-[Lancelot] text-xl font-normal text-center">&copy; 2023 All right Reserved</p>
                 <p class="font-[Lancelot] text-xl font-normal text-center">Made with ❤ by <span>Adeola</span></p>
             </footer>
