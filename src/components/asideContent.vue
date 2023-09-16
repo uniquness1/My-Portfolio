@@ -10,12 +10,12 @@
                 <p class="fold-medium font-[Lancelot] text-2xl text-center">Frontend Developer</p>
             </div>
             <nav class="flex flex-col items-center gap-2">
-                <a class="font-[Lancelot] text-xl hover:text-[#2C98F0] duration-300" v-for="(link, index) in links"
+                <a class="font-[Lancelot] text-2xl hover:text-[#2C98F0] duration-300" v-for="(link, index) in links"
                     :key="index" :href="link.url" :class="{ active: activeLink === index }" @click="scrollToSection(index)">
                     {{ link.text }}
                 </a>
             </nav>
-            <footer>
+            <footer class="mb-5 md:mb-0">
                 <p class="font-[Lancelot] text-xl font-normal text-center">&copy; 2023 All right Reserved</p>
                 <p class="font-[Lancelot] text-xl font-normal text-center">Made with ❤ by <span>Adeola</span></p>
             </footer>
