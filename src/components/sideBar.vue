@@ -1,6 +1,6 @@
 <template>
     <div class="md:hidden mobile-nav">
-        <div class="w-10 z-10 px-1 fixed top-5 left-5 md:hidden cursor-pointer" @click="toggleSidebar">
+        <div class="w-10 z-20 px-1 fixed top-5 left-5 md:hidden cursor-pointer" @click="toggleSidebar">
             <span :class="{ 'bar': true, 'open': sidebarOpen }" v-for="(bar, index) in 3" :key="index"></span>
         </div>
         <asidecontent :class="{ 'open': sidebarOpen, 'hidden': !sidebarOpen }"/>
