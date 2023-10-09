@@ -1,6 +1,6 @@
 <template>
     <aside
-        class="h-screen overflow-y-scroll bg-black w-full md:w-[300px] fixed top-0 left-0 transition-transform duration-300 py-10 flex items-center justify-center">
+        class="h-screen overflow-y-scroll bg-gray-100 w-full md:w-[300px] fixed top-0 left-0 transition-transform duration-300 py-10 flex items-center justify-center">
         <div class="flex flex-col items-center justify-center gap-8">
             <div class="w-36 h-36 md:mt-10">
                 <img class="w-full h-full rounded-full" src="@/assets/images/adeola.jpg" alt="image of Ajijola Adeola">
