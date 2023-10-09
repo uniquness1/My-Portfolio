@@ -27,7 +27,7 @@ const toggleSidebar = () => {
      background: #ebebeb;
  }
 ::-webkit-scrollbar-thumb{
-     background: #2C98F0;
+     background: #666;
  }
 .bar {
     width: 100%;

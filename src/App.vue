@@ -1,5 +1,5 @@
 <template>
-  <main class="flex justify-between max-w-7xl w-full mx-auto h-screen">
+  <main class="flex justify-between max-w-8xl w-full mx-auto h-screen">
     <div>
       <SideBar />
     </div>

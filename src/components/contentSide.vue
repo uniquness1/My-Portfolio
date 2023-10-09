@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full h-screen overflow-y-scroll">
+    <section class="w-full h-screen overflow-y-scroll bg-black">
         <Homecontent id="Home"/>
         <AboutContent id="About"/>
     </section>

@@ -1,24 +1,24 @@
 <template>
-    <aside v-show="sidebarOpen"
-        class="h-screen overflow-y-scroll bg-gray-100 w-full md:w-[300px] fixed top-0 left-0 transition-transform duration-300 py-10 flex items-center justify-center">
+    <aside
+        class="h-screen overflow-y-scroll bg-black w-full md:w-[300px] fixed top-0 left-0 transition-transform duration-300 py-10 flex items-center justify-center">
         <div class="flex flex-col items-center justify-center gap-8">
             <div class="w-36 h-36 md:mt-10">
                 <img class="w-full h-full rounded-full" src="@/assets/images/adeola.jpg" alt="image of Ajijola Adeola">
             </div>
             <div>
-                <h2 class="font-bold font-[Quicksand] text-2xl mb-1 text-center">Ajijola Adeola</h2>
-                <p class="fold-medium font-[Lancelot] text-base text-[#2C98F0] text-center">Frontend Developer</p>
+                <h2 class="font-bold font-[Quicksand] text-2xl mb-1 text-center dark:text-white">Ajijola Adeola</h2>
+                <p class="fold-medium font-[Lancelot] text-base text-[#2C98F0] text-center dark:text-white">Frontend Developer</p>
             </div>
             <nav class="flex flex-col items-center gap-1">
-                <a class="font-[Lancelot] font-light text-xl hover:text-[#2C98F0] duration-300"
+                <a class="font-[Lancelot] font-light text-xl hover:text-[#2C98F0] duration-300 dark:text-white"
                     v-for="(link, index) in links" :key="index" :href="link.url" :class="{ active: activeLink === index }"
                     @click="scrollToSection(index)">
                     {{ link.text }}
                 </a>
             </nav>
             <footer class="mb-10 md:mb-0">
-                <p class="font-[Lancelot] text-base font-normal text-center">&copy; 2023 All right Reserved</p>
-                <p class="font-[Lancelot] text-base font-normal text-center">Made with ❤ by <span
+                <p class="font-[Lancelot] text-base font-normal text-center dark:text-white">&copy; 2023 All right Reserved</p>
+                <p class="font-[Lancelot] text-base font-normal text-center dark:text-white">Made with ❤ by <span
                         class="text-[#2C98F0]">Adeola</span></p>
             </footer>
         </div>
